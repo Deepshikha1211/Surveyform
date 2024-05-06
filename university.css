@@ -1,0 +1,205 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #ffffff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header img.logo {
+    height: 130px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+section#hero {
+    background: url("hero.png") center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center; 
+    padding: 20rem 0;
+}
+
+section#hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+section#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background: #ffffff;
+    color: #4285f4;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.cta:hover {
+    background: #f0f0f0;
+}
+
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-top: 40zpx;
+}
+
+.service img {
+    width: 20%;
+    margin-bottom: 1rem;
+    height: auto;
+    border-radius: 30%;
+}
+
+.service h3 {
+    margin-top: 15px;
+}
+
+section#about {
+    background: #f4f4f4;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #4285f4;
+    color: #fff;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    width: 104%;
+}
+
+form button:hover {
+    background: #2a65c4;
+}
+
+section#socialmedia {
+    background: #f4f4f4;
+}
+
+.testimonial {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial .author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    section#hero h1 {
+        font-size: 2rem;
+    }
+
+    section#hero p {
+        font-size: 1rem;
+    }
+
+    .cta {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+}
