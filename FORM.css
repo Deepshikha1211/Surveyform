@@ -2,10 +2,11 @@ body{
 	background-image: url("hero3.png");
     background-attachment: fixed;
 	font-family: Roboto ,Sans-serif;
+	margin: 0px;
     
 }
 .form{
-	height: 1100px;
+	height: 1200px;
 	width: 600px;
 	margin: auto;
 }
